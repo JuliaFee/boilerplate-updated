@@ -1,7 +1,7 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Home from "../screens/Home";
-import Totoro from "../screens/Totoro";
-import Ghibli from "../screens/Ghibli";
+import Filmes from "../screens/Filmes";
+import Hobby from "../screens/Hobby";
 
 const Stack = createNativeStackNavigator();
 const StackRoutes = () => {
@@ -10,10 +10,10 @@ const StackRoutes = () => {
             <Stack.Screen 
             name="Home" 
             component={Home} />
-                <Stack.Screen name="Totoro" 
-                component={Totoro} />
-         <Stack.Screen name="Ghibli" 
-                component={Ghibli} />
+                <Stack.Screen name="Filmes" 
+                component={Filmes} />
+         <Stack.Screen name="Hobby" 
+                component={Hobby} />
                    
         </Stack.Navigator>
     )
