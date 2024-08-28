@@ -7,13 +7,6 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
     },
-    text: {
-        fontSize: 20,
-    },
-    title: {
-        fontSize: 30,
-        marginBottom: 20,
-        fontWeight: 'bold',
-    }
+
 })
 export default styles
